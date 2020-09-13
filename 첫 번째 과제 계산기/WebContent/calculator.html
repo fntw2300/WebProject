@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+	body{
+		margin-left:20px;
+	}
+</style>
+<meta charset="UTF-8">
+<title>계산기1</title>
+</head>
+<body>
+
+	<form action="cal" method="post">
+		<h1 style="margin-top:20px;">계산기1</h1>
+		<hr>
+		첫 번째 값 : <input type="text" name="num1" placeholder="숫자1">
+		<select name="operator" class="btn btn-success">
+			<option selected>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+		</select>
+		두 번째 값 : <input type="text" name="num2" placeholder="숫자2">
+		<input type="submit" value="계산" class="btn btn-primary">
+		<input type="reset" value="재입력" class="btn btn-primary">
+	</form>
+</body>
+</html>
