@@ -23,7 +23,7 @@ public class Logout extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		out.println("<HTML>");
-		out.println("<head><title>로그인</title></head>");
+		out.println("<head><title>로그아웃</title></head>");
 		out.println("<body>");
 		out.println("<h1>로그아웃 되었습니다.</h1>");
 		out.println("</body></html>");
